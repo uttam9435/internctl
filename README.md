@@ -82,8 +82,4 @@ internctl file getinfo --owner sample.txt
 # Get last modified time of the file
 internctl file getinfo --last-modified sample.txt
 ```
-## Contributing
-If you'd like to contribute to this project, please follow the Contributing Guidelines.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
