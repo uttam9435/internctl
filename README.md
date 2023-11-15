@@ -1,9 +1,9 @@
-# internsctl
+# internctl
 
-`internsctl` is a command-line tool designed to perform various system operations. It provides functionalities related to CPU information, memory information, user management, and file information retrieval.
+`internctl` is a command-line tool designed to perform various system operations. It provides functionalities related to CPU information, memory information, user management, and file information retrieval.
 
 ## Table of Contents
-- [internsctl](#internsctl)
+- [internctl](#internctl)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
     - [Options:](#options)
@@ -14,31 +14,31 @@
 
 ## Installation
 
-To use `internsctl`, follow these steps:
+To use `internctl`, follow these steps:
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/internsctl.git
+   git clone https://github.com/your-username/internctl.git
    
 ```bash
-cd internsctl
+cd internctl
 ``````
 ```bash 
-chmod +x internsctl
+chmod +x internctl
 ```
 ```bash
-sudo mv internsctl /usr/local/bin/
+sudo mv internctl /usr/local/bin/
 
 ```
 ```bash
-internsctl [options] subcommand [arguments]
+internctl [options] subcommand [arguments]
 
 ```
 
 ### Options:
 - --help: Display help information.
-- --version: Display the version of internsctl.
+- --version: Display the version of internctl.
 #### Subcommands
 - cpu getinfo: Get CPU information (similar to lscpu).
 - memory getinfo: Get memory information (similar to free).
@@ -56,31 +56,31 @@ Options:
 
  ```bash
  # Get CPU information
-internsctl cpu getinfo
+internctl cpu getinfo
 
 # Get memory information
-internsctl memory getinfo
+internctl memory getinfo
 
 # Create a new user
-internsctl user create newuser
+internctl user create newuser
 
 # List all regular users
-internsctl user list
+internctl user list
 
 # List users with sudo permissions
-internsctl user list --sudo-only
+internctl user list --sudo-only
 
 # Get file size
-internsctl file getinfo --size sample.txt
+internctl file getinfo --size sample.txt
 
 # Get file permissions
-internsctl file getinfo --permissions sample.txt
+internctl file getinfo --permissions sample.txt
 
 # Get file owner
-internsctl file getinfo --owner sample.txt
+internctl file getinfo --owner sample.txt
 
 # Get last modified time of the file
-internsctl file getinfo --last-modified sample.txt
+internctl file getinfo --last-modified sample.txt
 ```
 ## Contributing
 If you'd like to contribute to this project, please follow the Contributing Guidelines.
